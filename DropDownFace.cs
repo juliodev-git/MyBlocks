@@ -3,6 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
+/*
+ * DropDownFace generates list of cosmetics based on GameObjects that are parented to player AND marked as 'cosmetic'
+ * Uses cosmeticController reference to send UI value information to selected player's cosmeticController and enables selected cosmetic from dropDown menu
+ */
+
 public class DropDownFace : MonoBehaviour
 {
     public CosmeticController cosmeticController;
