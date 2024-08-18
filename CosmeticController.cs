@@ -5,7 +5,7 @@ using UnityEngine;
 /*
  * CosmeticController to be used inconjuction with Cosmetic UI Menu Dropdowns
  * Stores available list of cosmetics (hat or glasses/mask cosmetics) via arrays. Can alter which cosmetic game object is enabled/disabled
- * essentially toggling different items on or off.
+ * by parsing array of GameObjects and enabling the GameObject at selected index.
  */
 
 public class CosmeticController : MonoBehaviour
