@@ -4,8 +4,8 @@ using UnityEngine;
 using TMPro;
 
 /*
- * DropDownFace generates list of cosmetics based on GameObjects that are parented to player AND marked as 'cosmetic'
- * Uses cosmeticController reference to send UI value information to selected player's cosmeticController and enables selected cosmetic from dropDown menu
+ * DropDownFace generates list of cosmetic options/names for available face cosmetics stored in CosmeticController
+ * Sends selected cosmetic to cosmeticController wherein cosmeticController enables selected face cosmetic.
  */
 
 public class DropDownFace : MonoBehaviour
