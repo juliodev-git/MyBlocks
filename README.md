@@ -1,5 +1,5 @@
 # MyBlocks
-![screenshot](screenshot.png)
+![screenshot](screenshot.PNG)
 [Read More About MyBlocks](https://portfolium.com/entry/25d-mobile-multiplayer-game)
 
 _______________________________________
