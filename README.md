@@ -8,7 +8,7 @@ _______________________________________
 
 _______________________________________
 
-I developed the core gameplay mechanics including player movement, collision-based interactions (NPC's, level changing, fishing), and cinematic sequences in the form of a start screen and NPC cutscenes.The scipts above are core gameplay scripts used to move and animate the character, as well as change scenes via trigger colliders to paint the world as a series of interconnected environments.
+I developed the prototype of MyBlocks which inludes core gameplay mechanics such as player movement and a cosmetic UI interface for selecting hats, masks or glasses for your player to wear - an emote dropdown list also included. Additionally, I was in charge of creating all emotes and movement animations. 
 
 _______________________________________
 
