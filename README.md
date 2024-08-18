@@ -12,7 +12,7 @@ I developed the prototype of MyBlocks which inludes core gameplay mechanics such
 
 _______________________________________
 
-**Human.cs**: Reads input values from user (via controller or keyboard) and relays that information to designated Character.cs class attached to our main player. Other values sent to Character are camera rotational values to rotate player to face the same direction as the camera. Values are also read-in from the Character to disable certain actions when Character is in particular states such as fishing or interacting with NPCs.
+**CosmeticController.cs**: Searches through parented objects on player, storing any objects with the tag 'cosmetic.' Once stored, a helper function can use an index to mark a cosmetic as ON and visible. If the player is already wearing cosmetic, the current cosmetic index is disabled and overriden by the new index.
 
-**Character.cs**: The main script that moves the player, values sent in from Human are used to move the player via Unity's CharacterController component as well as rotate the character to face the same direction as camera during a fishing cast and fishing game.
+**DropDownFace.cs**: This scipt is linked directly to a dropdown UI list. On Start, a list of selectable cosmetics is generated based on any cosmetic items that were found by CosmeticController. If the player selects a new cosmetic item from the list, the index of selected item is sent to CosemticController where it is enabled.
 
